@@ -23,10 +23,22 @@ header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+}
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    align-items: center
 }
 
 nav, p, section, article {
@@ -79,7 +91,8 @@ article {
 }
 
 header img{
-    width: 100px;
+    width: 150px;
+    height: auto;
 }
 
 header a{
@@ -98,12 +111,40 @@ section p {
     text-align: center;
     color: var(--accent2-color);
 }
+.history img{
+    width: 200px;
+    height: auto;
 
+}
+.history {
+    display: flex;
+    padding-top: 20px;
+}
+figure img{
+    width: 120px;
+    height: auto;
+    display: block;
+}
+
+figure{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+}
+.adventure{
+    display: flex;
+    justify-content: space-evenly;
+}
 footer{
     text-align: center;
     color: var(--accent2-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
+footer p{
+    padding-left: 200px;
+}
 footer img {
     width: 50px;
     float: right;
