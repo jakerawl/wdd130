@@ -65,7 +65,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -216,4 +216,15 @@ button:hover {
 .serve h2{
     background-color: white;
     color: var(--accent2-color);
+}
+.contact{
+    background-color: white;
+    color: var(--accent2-color);
+    text-align: center;
+
+}
+iframe{
+    width: 500px; 
+    height: auto; 
+    border: 0px;
 }
