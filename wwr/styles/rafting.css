@@ -150,3 +150,70 @@ footer img {
     float: right;
     padding: 5px;
 }
+.reachus h2{
+    background-color: white;
+    color: var(--accent2-color);
+    margin: 2px;
+    padding: 1px;
+}
+.reachus p{
+    color: var(--accent2-color);
+    margin: 0px;
+    padding: 1px;
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  display: grid;
+}
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+}
+button {
+  margin: 1rem;
+  background-color: white;
+  color: var(--accent2-color);
+  border: 1px solid var(--primary-color);
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+}
+.form-item {
+  display: grid;
+  align-items: center;
+}
+.column1 {
+  grid-template-columns: 2fr 2fr;
+  margin: 0.5rem 0;
+}
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
+.column1 p{
+    margin: 1px;
+}
+.subscribe{
+    padding: 2px;
+}
+.message p{
+    padding: 0px;
+    margin: 1px;
+}
+.serve, .map, .reachus{
+    border: 1px solid var(--primary-color);
+}
+.serve h2{
+    background-color: white;
+    color: var(--accent2-color);
+}
