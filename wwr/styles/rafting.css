@@ -1,8 +1,8 @@
 :root{
-    --primary-color: #FF8040;
-    --secondary-color: white;
-    --accent1-color: #658C58;
-    --accent2-color: #4A70A9;
+    --primary-color: #752700;
+    --secondary-color: #53719E;
+    --accent1-color: #557749;
+    --accent2-color: #97C0FD;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -70,7 +70,13 @@ nav, p, section, article {
     padding: 16px;
     text-align: center;
     background-color: var(--accent1-color) ;
-    color: var(--secondary-color);
+    color: white;
+}
+.hero p{
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    margin: 0px;
 }
 
 article {
@@ -78,7 +84,7 @@ article {
     top: 370px;
     background-color: var(--accent1-color) ;
     padding: 17px;
-    color: var(--secondary-color);
+    color: white;
     text-align: center;
 }
 
@@ -102,12 +108,12 @@ h2{
     padding: 16px;
     text-align: center;
     background-color: var(--accent1-color) ;
-    color: var(--secondary-color);
+    color: white;
 }
 
 section p {
     text-align: center;
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 .history img{
     width: 200px;
@@ -135,7 +141,7 @@ figure{
 }
 footer{
     text-align: center;
-    color: var(--accent2-color);
+    color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -150,12 +156,12 @@ footer img {
 }
 .reachus h2{
     background-color: white;
-    color: var(--accent2-color);
+    color: var(--secondary-color);
     margin: 2px;
     padding: 1px;
 }
 .reachus p{
-    color: var(--accent2-color);
+    color: var(--secondary-color);
     margin: 0px;
     padding: 1px;
 }
@@ -166,6 +172,7 @@ form {
   border-radius: 0.5rem;
   background-color: white;
   display: grid;
+  color: var(--accent1-color);
 }
 fieldset {
   display: grid;
@@ -213,11 +220,11 @@ button:hover {
 }
 .serve h2{
     background-color: white;
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 .contact{
     background-color: white;
-    color: var(--accent2-color);
+    color: var(--secondary-color);
     text-align: center;
 
 }
@@ -225,4 +232,81 @@ iframe{
     width: 500px; 
     height: auto; 
     border: 0px;
+}
+.newsletter h2{
+    background-color: var(--accent2-color) ;
+    color: var(--primary-color);
+}
+.intro p{
+    color: var(--secondary-color);
+}
+.come h2{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+
+}
+.trip h1{
+    text-align: center;
+}
+.trip{
+    border: dashed var(--accent1-color) 2px;
+    margin: 5px;
+}
+.trips h2{
+    background-color: white;
+    color: var(--primary-color);
+
+}
+.trips{
+    border: dashed var(--accent1-color) 1px;
+}
+.trips figcaption{
+    color: var(--primary-color);
+}
+.dark{
+    display: flex;
+    align-items: center;   
+}
+.dark img{
+    width: 180px;
+    height: auto;
+}
+.blue{
+    display: flex;
+    align-items: center;   
+}
+.blue img{
+    width: 180px;
+    height: auto;
+}
+.full{
+    display: flex;
+    align-items: center;   
+}
+.full img{
+    width: 180px;
+    height: auto;
+}
+table{
+    border: 2px solid var(--secondary-color);
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+thead{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+th, td{
+    text-align: center;
+    padding: 5px 8px;
+    border: 1px solid var(--secondary-color);
+    color: var(--primary-color);
+}
+.compare h2{
+    background-color: white;
+    color: var(--primary-color);
+}
+.compare{
+    border: dashed var(--accent1-color) 1px;
 }
